@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #fafafa;
+}
+
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+.article {
+	background: #fff;
+	margin: 24px 0;
+	padding: 40px;
+}
+.title {
+	margin-bottom: 24px;
+	font-size: 32px;
+	color: #333;
+}
+.text {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 40px;
+	color: #666;
+}
+.images-mosaic {
+	width: 720px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.images-mosaic img{
+	opacity: 0;
+}
+.images-mosaic.ready img {
+	opacity: 1;
+	transition: opacity 1s;
+}
+.mosaic4 {
+	width: 540px;
+}
